@@ -10,6 +10,7 @@ $ stepi
 $ info variables								# Print variables
 $ info registers								# Print registers
 $ info functions								# Print defined functions and symbols
+$ info sources                                  # Print source files, if available
 
 $ disassemble									# Print assembler dump
 $ print <variable>								# Print value of variable
@@ -17,3 +18,7 @@ $ print &<variable>								# Print address of variable
 $ x/xb <address>								# Print byte at address
 $ x/<n>xb <address>								# Print n bytes at address (e.g. x/3xb -> print 3 bytes)
 $ x/xb &<address>								# Print byte at address (alternative)
+
+$ list                                          # Display source code, if available
+$ list <number>                                 # Display source code beginning at line <number>
+
