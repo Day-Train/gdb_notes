@@ -1,1 +1,2 @@
-[shell]$ gcc -g                     # Include gcc debugger symbols
+[shell]$ gcc -g main.c -o main                    # Include gcc debugger symbols
+[shell]$ gcc main.c -ggdb -o main                 # Include gdb debugger symbols
